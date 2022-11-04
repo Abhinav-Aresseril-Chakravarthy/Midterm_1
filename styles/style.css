@@ -1,0 +1,84 @@
+@import url('./layout.css');
+
+
+#header-option-3{
+    align-items: center;
+}
+
+#main-navigation-option-1 ul {
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    background-color: brown;
+    color: brown;
+}
+
+#main-navigation-option-1 li{
+    margin-top: 43px;
+}
+
+#main-navigation-option-1 a{
+    text-decoration: none;
+    color: white;
+}
+
+aside{
+    border: 2px;
+    border-style: solid;
+    font-family: 'Times New Roman', Times, serif;
+    width: 30%;
+    order: 1;
+    float: left;
+    margin-right: 1em;
+    margin-top: 1em;
+    width: 300px;
+}
+
+
+#asidehead{
+    height: 70px;
+    justify-content: center;
+    background-color: #333; 
+    color: white;
+    font-size: 33px;
+    text-align: center;
+}
+
+aside p{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    order: 2;}
+
+
+
+main article img{
+    height: 200px;
+    width: 200px;
+}
+
+
+#text-beside-image p{
+    display: flex;
+    flex-wrap: wrap;
+    float: left;
+
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+#asidecite {
+    margin-top: 5px;
+    background-color: #333;
+    color: white;
+    height: 35px;
+}
+
+#asidecite a{
+    color: white;
+}
